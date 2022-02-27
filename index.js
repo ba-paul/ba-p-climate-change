@@ -6,7 +6,6 @@ const {response} = require("express");
 
 const app = express()
 
-
 const newspapers = [
     {
         name: 'cityam',
@@ -27,7 +26,7 @@ const newspapers = [
         name: 'telegraph',
         address: 'https://www.telegraph.co.uk/climate-change',
         base: 'https://www.telegraph.co.uk'
-    },
+    }
 ]
 
 const articles = []
